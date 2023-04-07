@@ -1,0 +1,24 @@
+{
+  "name": "garlandtoolscollector",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "main.js",
+  "dependencies": {
+    "garlandtools-api": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brandyparty/GarlandToolsCollector.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brandyparty/GarlandToolsCollector/issues"
+  },
+  "homepage": "https://github.com/Brandyparty/GarlandToolsCollector#readme"
+}

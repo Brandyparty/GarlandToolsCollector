@@ -1,10 +1,11 @@
 <html>
 	<head>
-		<script src="bundle.js"></script>
+		<!--
 		<script>
-			
+			import { createRequire } from 'module';
+			const require = createRequire(import.meta.url);
 		</script>
-		<!--<script src="require.js"></script>-->
+		-->
 	</head>
 	<body>
 		<div>
@@ -12,7 +13,10 @@
 			<button id="startbutton">Start</button>
 		</div>
 		
-		<script src="main.js"></script>
+		<script src="./main.js"></script>
+		<script>
+			document.getElementById ("startbutton").addEventListener ("click", start, false);
+		</script>
 	</body>
 
 
